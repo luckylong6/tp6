@@ -2,9 +2,9 @@
 
 namespace app\admin\controller\order;
 
-use app\admin\controller\Common;
+//use app\admin\controller\Common;
 
-class Order extends common
+class Orders extends Controller
 {
 
     /* 订单列表 */
