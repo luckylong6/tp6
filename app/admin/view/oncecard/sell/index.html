@@ -1,0 +1,20 @@
+<html>
+<header>
+
+<style>
+	.list-page {text-align:center;padding: 15px 15px;}
+	.mws-panel-content {background: #eee;}
+	.pagination {margin:0 !important;padding: 10px 10px;box-shadow: 0px 1px 2px 0px #E2E2E2;background: #fff;}
+	.pagination li{border:1px solid #e6e6e6;padding: 3px 8px;display: inline-block;}
+	.pagination .active{background-color: #46A3FF;color: #fff;}
+	.pagination .disabled{color: #aaa;}
+	.pagination a{text-decoration:none}
+</style>
+</header>
+<body>
+{volist name="list" id="item"}
+{$item['id']}
+{/volist}
+{$list|raw}
+</body>
+</html>

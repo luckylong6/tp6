@@ -14,5 +14,5 @@ Route::get('think', function () {
     return 'hello,ThinkPHP6!';
 });
 
-Route::get('hello/:name', 'active/index');
+Route::get('hello/:name', 'oncecard.sell/index');
 Route::get('', 'index/hello');

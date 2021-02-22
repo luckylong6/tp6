@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "af4c1d3fa817eb8c58caa9a7ec0362b0",
+    "content-hash": "f83495096ef6914a78fd36db3a9335d2",
     "packages": [
         {
             "name": "league/flysystem",
@@ -643,6 +643,49 @@
                 "orm"
             ],
             "time": "2021-02-18T02:01:00+00:00"
+        },
+        {
+            "name": "topthink/think-socketlog",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/top-think/think-socketlog.git",
+                "reference": "fe7134c41026dc74176796d4a6b7f57ae3fa1a84"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/top-think/think-socketlog/zipball/fe7134c41026dc74176796d4a6b7f57ae3fa1a84",
+                "reference": "fe7134c41026dc74176796d4a6b7f57ae3fa1a84",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "topthink/framework": "^6.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "think\\log\\driver\\": "src"
+                },
+                "files": []
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "liu21st",
+                    "email": "liu21st@gmail.com"
+                }
+            ],
+            "description": "SocketLog for thinkphp",
+            "time": "2019-06-10T08:15:30+00:00"
         },
         {
             "name": "topthink/think-template",
